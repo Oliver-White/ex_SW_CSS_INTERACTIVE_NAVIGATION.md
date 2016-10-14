@@ -1,0 +1,105 @@
+header {
+	background-color: blue;
+	margin: 0 auto;
+	border: solid 1px white;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.disabled {
+	color: gray;
+}
+
+.disabled a {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.red {
+	color: red;
+}
+
+.redb {
+	background-color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.blueb {
+	background-color: blue;
+}
+
+.grandparent h4 {
+	border: 1px solid white;
+	border-radius: 10%;
+}
+
+.promo {
+	font-weight: 800;
+	color: gold;
+}
+
+footer input { 
+	padding: 20px 10px; 
+	line-height: 28px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
